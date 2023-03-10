@@ -1,3 +1,6 @@
+html {
+  font-size: 100%;
+}
 body {
   background-color: #F5F5EB;
   font-family: 'Merriweather Sans', sans-serif;
@@ -7,17 +10,41 @@ body {
   margin: 0 auto;
 }
 .bayan-section {
-  border-top: 2px solid #E5E9E7;
-  padding: 20px 10px;
+  border-top: 0.15em solid #E5E9E7;
+  padding: 1.5em 0.5em;
+}
+.bayan-section:hover .meme {
+  height: auto;
+}
+.bayan-section:hover .close {
+  transform: rotate(45deg);
+}
+.bayan-section-main {
+  display: flex;
+  justify-content: space-between;
 }
 .bayan-section-title {
   margin: 0;
-  font-size: 21px;
+  font-size: 1.4em;
+}
+.close {
+  width: 1.8em;
+  -moz-transition: height 0.3s ease-in-out;
+  -webkit-transition: height 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out;
+  transition: height 0.6s ease-in-out;
 }
 .meme {
-  max-width: 350px;
+  max-width: 23em;
   display: block;
-  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+.meme {
+  height: 0;
+  overflow: hidden;
+  -moz-transition: height 0.3s ease-in-out;
+  -webkit-transition: height 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out;
+  transition: height 0.6s ease-in-out;
 }
