@@ -1,0 +1,23 @@
+body {
+  background-color: #F5F5EB;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.bayan-section {
+  border-top: 2px solid #E5E9E7;
+  padding: 20px 10px;
+}
+.bayan-section-title {
+  margin: 0;
+  font-size: 21px;
+}
+.meme {
+  max-width: 350px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
