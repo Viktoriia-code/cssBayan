@@ -19,6 +19,15 @@ body {
 .bayan-section:hover .close {
   transform: rotate(45deg);
 }
+input[type=radio] {
+	display: none;
+}
+input:checked + label .meme {
+  height: auto;
+}
+input:checked + label .close {
+  transform: rotate(45deg);
+}
 .bayan-section-main {
   display: flex;
   justify-content: space-between;
